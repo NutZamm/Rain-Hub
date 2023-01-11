@@ -1,7 +1,9 @@
-([[
+([[                
+  
+     script is forbidden Any attempts at tampering, 
+  reverse engineering or modifying this script's internal
 
-This script has been licensed using rainHub Unauthorized distribution of this script is forbidden. Any attempts at tampering, reverse engineering or modifying this script's internal logic will result in a global ban, and make you blacklisted from every single script that has been licensed with rainHub 
-  ___   _____  _  _   _     _   _  _   _  ___
+  
  |  _ \(  _  )(_)( ) ( )   (█) (█)(█) (█)(████\
  | (_) ) (_) || ||  \| |   |█|_|█||█| |█||█(_)█)
  |    /(  _  )| ||     |   |█████||█| |█||████(
