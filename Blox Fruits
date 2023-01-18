@@ -222,7 +222,7 @@ _G.SaveSetting = {
    
    function savesettings()
 	   if readfile and writefile and isfile and isfolder then
-		   if not isfile("Makima Hub Premium Scripts/Blox Fruits/" .. game.Players.LocalPlayer.Name .. ".json") then
+		   if not isfile("Rain Hub Premium Scripts/Blox Fruits/" .. game.Players.LocalPlayer.Name .. ".json") then
 			   LoadSettings()
 		   else
 			   local Decode = game:GetService("HttpService"):JSONDecode(readfile("Makima Hub Premium Scripts/Blox Fruits/" .. game.Players.LocalPlayer.Name .. ".json"))
@@ -1580,7 +1580,7 @@ function setwatermarktime()
     local hr = math.floor(dgt/(60^2))%24
     local min = math.floor(dgt/(60^1))%60
     local sec = math.floor(dgt/(60^0))%60
-    Library:SetWatermark("Makima Hub | v.1.7.27-12-22 | "..hr.." Hour(hr) "..min.." Minute(m) "..sec.." Second(s)")
+    Library:SetWatermark("Rain Hub | v.1.7.27-12-22 | "..hr.." Hour(hr) "..min.." Minute(m) "..sec.." Second(s)")
  end
  
  spawn(function()
@@ -1591,14 +1591,14 @@ function setwatermarktime()
 end)
 
 local Window = Library:CreateWindow({
-    Title = 'Makima Hub | Community Beta Scripts',
+    Title = 'Rain Hub | Community Beta Scripts',
     Center = true, 
     AutoShow = true,
 })
 task.spawn(function()
 	while task.wait() do
 		Library:AttemptSave()
-		Window:SetWindowTitle("Makima Hub | Beta Scripts - "..os.date('%A, %B %d %Y at %H:%M:%S'))
+		Window:SetWindowTitle("Rain Hub | Beta Scripts - "..os.date('%A, %B %d %Y at %H:%M:%S'))
 	end
 end)
 local Tabs = {
